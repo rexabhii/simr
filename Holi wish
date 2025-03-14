@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Holi Celebration</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <audio id="holiSong" autoplay loop>
+        <source src="your-song.mp3" type="audio/mpeg">
+        Your browser does not support the audio element.
+    </audio>
+
+    <div id="popup1" class="popup">
+        <h2>Happy Holi Sabar!</h2>
+    </div>
+
+    <div id="popup2" class="popup">
+        <h2>To move forward, click Enjoy!</h2>
+        <button onclick="showPopup3()">Enjoy</button>
+    </div>
+
+    <div id="popup3" class="popup">
+        <h2>Bina tumhe rang lagaye kahi Fagun laut na jaye!</h2>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
